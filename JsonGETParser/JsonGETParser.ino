@@ -53,6 +53,10 @@ void loop()
 
     int id = doc["id"]; //Example to acces json 
 
+    Serial.print(id);
+
+    client.end();
+
    }
    else
    {
